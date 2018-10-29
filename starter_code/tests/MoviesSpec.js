@@ -126,7 +126,7 @@ describe('Get how many movies - howManyMovies', function () {
     expect(typeof howManyMovies).toBe('function');
   });
 
-  it('Should return an string', function () {
+ it('Should return an string', function () {
     expect(typeof howManyMovies(movies)).toBe('string');
   });
 
